@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Job Application Autofill",
+    "version": "1.0",
+    "description": "Autofill job applications with saved user details.",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
