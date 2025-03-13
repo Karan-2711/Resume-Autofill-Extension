@@ -1,4 +1,4 @@
-  Resume Autofill Extension
+  **Resume Autofill Extension**
 
 A smart job application autofill extension built using Vite + React. This extension allows users to enter their details once and **automatically fills job application forms,** detecting relevant fields dynamically.
 
@@ -6,10 +6,10 @@ A smart job application autofill extension built using Vite + React. This extens
 
 - **One-Time Data Entry :** Users input details once and reuse them across multiple job applications.
 - **Auto-Fill Functionality :** Smart detection of form fields like name, email, phone, CGPA, etc.
-- **Keyword-Based Matching :**Recognizes variations like "Email" & "Email Address," "Phone" & "Mobile Number."
+- **Keyword-Based Matching :** Recognizes variations like "Email" & "Email Address," "Phone" & "Mobile Number."
 - **Intelligent Name Handling :** If a single "Name" field is found, it fills it as "FirstName LastName."
-- **Editable Anytime :**Users can update details whenever needed.
-- **Lightweight & Fast :**Built with Vite + React for better performance.
+- **Editable Anytime :** Users can update details whenever needed.
+- **Lightweight & Fast :** Built with Vite + React for better performance.
 
 ## 🎯 Use Cases
 
